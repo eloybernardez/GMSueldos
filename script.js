@@ -37,11 +37,11 @@ class Tier {
 }
 
 class Tier1Class extends Tier {
-  #individual = 455;
-  #packs = 422;
-  #gx2 = 357;
-  #gx3 = 325;
-  #gx4 = 292;
+  #individual = 877.5;
+  #packs = 812;
+  #gx2 = 714.5;
+  #gx3 = 650;
+  #gx4 = 584.5;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
     super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
@@ -69,11 +69,11 @@ class Tier1Class extends Tier {
 }
 
 class Tier2Class extends Tier {
-  #individual = 487;
-  #packs = 455;
-  #gx2 = 390;
-  #gx3 = 357;
-  #gx4 = 325;
+  #individual = 935.5;
+  #packs = 871;
+  #gx2 = 773.5;
+  #gx3 = 708;
+  #gx4 = 643.5;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
     super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
@@ -101,11 +101,11 @@ class Tier2Class extends Tier {
 }
 
 class Tier3Class extends Tier {
-  #individual = 520;
-  #packs = 488;
-  #gx2 = 422;
-  #gx3 = 390;
-  #gx4 = 357;
+  #individual = 1001;
+  #packs = 936.5;
+  #gx2 = 838;
+  #gx3 = 773.5;
+  #gx4 = 708;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
     super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
@@ -133,11 +133,11 @@ class Tier3Class extends Tier {
 }
 
 class Tier4Class extends Tier {
-  #individual = 552;
-  #packs = 520;
-  #gx2 = 455;
-  #gx3 = 422;
-  #gx4 = 390;
+  #individual = 1059;
+  #packs = 994.5;
+  #gx2 = 897;
+  #gx3 = 831.5;
+  #gx4 = 767;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
     super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
@@ -165,11 +165,11 @@ class Tier4Class extends Tier {
 }
 
 class Tier5Class extends Tier {
-  #individual = 585;
-  #packs = 553;
-  #gx2 = 487;
-  #gx3 = 455;
-  #gx4 = 422;
+  #individual = 1124.5;
+  #packs = 1060;
+  #gx2 = 961.5;
+  #gx3 = 897;
+  #gx4 = 831.5;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
     super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
@@ -197,11 +197,11 @@ class Tier5Class extends Tier {
 }
 
 class Tier6Class extends Tier {
-  #individual = 617;
-  #packs = 585;
-  #gx2 = 520;
-  #gx3 = 487;
-  #gx4 = 455;
+  #individual = 1182.5;
+  #packs = 1118;
+  #gx2 = 1020.5;
+  #gx3 = 955;
+  #gx4 = 890.5;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
     super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
