@@ -1,12 +1,6 @@
 // Clases
 class Tier {
-  constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
-    this.cantInd = cantInd;
-    this.cantPacks = cantPacks;
-    this.cantidadGx2 = cantidadGx2;
-    this.cantidadGx3 = cantidadGx3;
-    this.precioGx4 = cantidadGx4;
-  }
+  constructor() {}
 
   calcSueldo(
     cantidadInd,
@@ -44,7 +38,7 @@ class Tier1Class extends Tier {
   #gx4 = 584.5;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
-    super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
+    super();
     this.cantInd = cantInd;
     this.cantPacks = cantPacks;
     this.cantidadGx2 = cantidadGx2;
@@ -76,7 +70,7 @@ class Tier2Class extends Tier {
   #gx4 = 643.5;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
-    super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
+    super();
     this.cantInd = cantInd;
     this.cantPacks = cantPacks;
     this.cantidadGx2 = cantidadGx2;
@@ -108,7 +102,7 @@ class Tier3Class extends Tier {
   #gx4 = 708;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
-    super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
+    super();
     this.cantInd = cantInd;
     this.cantPacks = cantPacks;
     this.cantidadGx2 = cantidadGx2;
@@ -140,7 +134,7 @@ class Tier4Class extends Tier {
   #gx4 = 767;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
-    super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
+    super();
     this.cantInd = cantInd;
     this.cantPacks = cantPacks;
     this.cantidadGx2 = cantidadGx2;
@@ -172,7 +166,7 @@ class Tier5Class extends Tier {
   #gx4 = 831.5;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
-    super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
+    super();
     this.cantInd = cantInd;
     this.cantPacks = cantPacks;
     this.cantidadGx2 = cantidadGx2;
@@ -204,7 +198,7 @@ class Tier6Class extends Tier {
   #gx4 = 890.5;
 
   constructor(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4) {
-    super(cantInd, cantPacks, cantidadGx2, cantidadGx3, cantidadGx4);
+    super();
     this.cantInd = cantInd;
     this.cantPacks = cantPacks;
     this.cantidadGx2 = cantidadGx2;
@@ -237,40 +231,40 @@ class Tier6Class extends Tier {
 
 // Funciones
 function tiersCreation() {
-  let cantTier1Ind = Number(document.getElementById("tier1Ind").value);
-  let cantTier2Ind = Number(document.getElementById("tier2Ind").value);
-  let cantTier3Ind = Number(document.getElementById("tier3Ind").value);
-  let cantTier4Ind = Number(document.getElementById("tier4Ind").value);
-  let cantTier5Ind = Number(document.getElementById("tier5Ind").value);
-  let cantTier6Ind = Number(document.getElementById("tier6Ind").value);
+  let cantTier1Ind = Number(document.getElementById("tier1Ind")?.value);
+  let cantTier2Ind = Number(document.getElementById("tier2Ind")?.value);
+  let cantTier3Ind = Number(document.getElementById("tier3Ind")?.value);
+  let cantTier4Ind = Number(document.getElementById("tier4Ind")?.value);
+  let cantTier5Ind = Number(document.getElementById("tier5Ind")?.value);
+  let cantTier6Ind = Number(document.getElementById("tier6Ind")?.value);
 
-  let cantTier1Packs = Number(document.getElementById("tier1Pack").value);
-  let cantTier2Packs = Number(document.getElementById("tier2Pack").value);
-  let cantTier3Packs = Number(document.getElementById("tier3Pack").value);
-  let cantTier4Packs = Number(document.getElementById("tier4Pack").value);
-  let cantTier5Packs = Number(document.getElementById("tier5Pack").value);
-  let cantTier6Packs = Number(document.getElementById("tier6Pack").value);
+  let cantTier1Packs = Number(document.getElementById("tier1Pack")?.value);
+  let cantTier2Packs = Number(document.getElementById("tier2Pack")?.value);
+  let cantTier3Packs = Number(document.getElementById("tier3Pack")?.value);
+  let cantTier4Packs = Number(document.getElementById("tier4Pack")?.value);
+  let cantTier5Packs = Number(document.getElementById("tier5Pack")?.value);
+  let cantTier6Packs = Number(document.getElementById("tier6Pack")?.value);
 
-  let cantTier1Gx2 = Number(document.getElementById("tier1Gx2").value);
-  let cantTier2Gx2 = Number(document.getElementById("tier2Gx2").value);
-  let cantTier3Gx2 = Number(document.getElementById("tier3Gx2").value);
-  let cantTier4Gx2 = Number(document.getElementById("tier4Gx2").value);
-  let cantTier5Gx2 = Number(document.getElementById("tier5Gx2").value);
-  let cantTier6Gx2 = Number(document.getElementById("tier6Gx2").value);
+  let cantTier1Gx2 = Number(document.getElementById("tier1Gx2")?.value);
+  let cantTier2Gx2 = Number(document.getElementById("tier2Gx2")?.value);
+  let cantTier3Gx2 = Number(document.getElementById("tier3Gx2")?.value);
+  let cantTier4Gx2 = Number(document.getElementById("tier4Gx2")?.value);
+  let cantTier5Gx2 = Number(document.getElementById("tier5Gx2")?.value);
+  let cantTier6Gx2 = Number(document.getElementById("tier6Gx2")?.value);
 
-  let cantTier1Gx3 = Number(document.getElementById("tier1Gx3").value);
-  let cantTier2Gx3 = Number(document.getElementById("tier2Gx3").value);
-  let cantTier3Gx3 = Number(document.getElementById("tier3Gx3").value);
-  let cantTier4Gx3 = Number(document.getElementById("tier4Gx3").value);
-  let cantTier5Gx3 = Number(document.getElementById("tier5Gx3").value);
-  let cantTier6Gx3 = Number(document.getElementById("tier6Gx3").value);
+  let cantTier1Gx3 = Number(document.getElementById("tier1Gx3")?.value);
+  let cantTier2Gx3 = Number(document.getElementById("tier2Gx3")?.value);
+  let cantTier3Gx3 = Number(document.getElementById("tier3Gx3")?.value);
+  let cantTier4Gx3 = Number(document.getElementById("tier4Gx3")?.value);
+  let cantTier5Gx3 = Number(document.getElementById("tier5Gx3")?.value);
+  let cantTier6Gx3 = Number(document.getElementById("tier6Gx3")?.value);
 
-  let cantTier1Gx4 = Number(document.getElementById("tier1Gx4").value);
-  let cantTier2Gx4 = Number(document.getElementById("tier2Gx4").value);
-  let cantTier3Gx4 = Number(document.getElementById("tier3Gx4").value);
-  let cantTier4Gx4 = Number(document.getElementById("tier4Gx4").value);
-  let cantTier5Gx4 = Number(document.getElementById("tier5Gx4").value);
-  let cantTier6Gx4 = Number(document.getElementById("tier6Gx4").value);
+  let cantTier1Gx4 = Number(document.getElementById("tier1Gx4")?.value);
+  let cantTier2Gx4 = Number(document.getElementById("tier2Gx4")?.value);
+  let cantTier3Gx4 = Number(document.getElementById("tier3Gx4")?.value);
+  let cantTier4Gx4 = Number(document.getElementById("tier4Gx4")?.value);
+  let cantTier5Gx4 = Number(document.getElementById("tier5Gx4")?.value);
+  let cantTier6Gx4 = Number(document.getElementById("tier6Gx4")?.value);
 
   const tier1 = new Tier1Class(
     cantTier1Ind,
@@ -342,4 +336,10 @@ function calculadoraSueldo() {
 
 const calcButton = document.getElementById("calcBtn");
 
-calcButton.addEventListener("click", calculadoraSueldo);
+calcButton?.addEventListener("click", calculadoraSueldo);
+
+// For testing:
+const tier = new Tier();
+const calculadora = tier.calcSueldo;
+
+module.exports = calculadora;

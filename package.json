@@ -1,0 +1,27 @@
+{
+  "name": "gmsueldos",
+  "version": "1.0.0",
+  "description": "A salary calculator for teachers at Grey Matter",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eloybernardez/GMSueldos.git"
+  },
+  "keywords": [],
+  "author": "Eloy Bernardez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eloybernardez/GMSueldos/issues"
+  },
+  "homepage": "https://github.com/eloybernardez/GMSueldos#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^29.4.1",
+    "jsdom": "^21.1.0"
+  }
+}
